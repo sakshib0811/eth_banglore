@@ -1,0 +1,46 @@
+.home{
+    background-image: url(./img/img3.jpg);
+    align-items: center;
+    position: absolute;
+    min-width: 100%;
+    min-height: 100%;
+    background-size: cover;
+    background-position: center ;
+    z-index: -1;
+}
+
+.sub_upper_title{
+    color: #FFFFFF;
+    font-size: 25px;
+    margin-top: 90px;
+}
+
+.heading{
+    font-weight: 600;
+    font-size: 50px;
+    color: white;
+    font-family: "Noto Sans", Sans-serif;
+}
+
+.sub_title{
+    font-weight: bolder;
+    color: rgb(0, 33, 65);
+}
+
+@media screen and (max-width: 768px){
+    .sub_title{
+        color: rgb(7, 59, 111);
+    }
+}
+
+.btn{
+    border-radius: 20px;
+    border-style: solid;
+    height: 8vh;
+    width: 30%;
+    margin-top: 30px;
+    background-color: rgb(7, 43, 79);
+    color: #FFFFFF;
+    font-size: medium; 
+    cursor: pointer;
+}
