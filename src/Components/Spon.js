@@ -1,4 +1,5 @@
 import React from 'react'
+import Prize from './Prize'
 import "./Spon.css"
 function Spon() {
   return (
@@ -30,6 +31,7 @@ function Spon() {
             </div>
 
         </div>
+        <Prize />
       </div>
     
   )
