@@ -41,7 +41,7 @@ function Nav() {
         </li>
         <li className="nav__item">
           <a href="#" className="nav__link">
-            Challenges
+            Theme
           </a>
         </li>
         <li className="nav__item">

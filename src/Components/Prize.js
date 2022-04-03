@@ -1,8 +1,11 @@
 import React from 'react'
 import "./Prize.css"
 import img from "./img/card.jpg"
+import Workshop from './Workshop'
+
 function Prize() {
   return (
+      <div className='prize_top'>
     <div className='prize'>
         <div className='card'>
             <div className='card__body'>
@@ -22,6 +25,9 @@ function Prize() {
             Sed a consequat velit. Morbi lectus sapien, vestibulum et sapien sit amet, ultrices malesuada odio. Donec non quam euismod, mattis dui a, ultrices nisi.</p>
         </div>
         
+    </div>
+    <Workshop />
+    
     </div>
   )
 }

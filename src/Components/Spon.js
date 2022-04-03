@@ -32,6 +32,7 @@ function Spon() {
 
         </div>
         <Prize />
+        
       </div>
     
   )
