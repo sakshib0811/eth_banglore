@@ -1,3 +1,4 @@
+
 .home{
     background-image: url(./img/img3.jpg);
     align-items: center;
@@ -7,6 +8,7 @@
     background-size: cover;
     background-position: center ;
     z-index: -1;
+    /* background-repeat: no-repeat; */
 }
 
 .sub_upper_title{
@@ -31,14 +33,18 @@
     .sub_title{
         color: rgb(7, 59, 111);
     }
+    /* .home{
+        height: fit-content;
+    } */
 }
 
 .btn{
+    margin-bottom: 5rem;
     border-radius: 20px;
     border-style: solid;
     height: 8vh;
     width: 30%;
-    margin-top: 30px;
+    margin-top: 62px;
     background-color: rgb(7, 43, 79);
     color: #FFFFFF;
     font-size: medium; 
