@@ -21,7 +21,7 @@ function Footer() {
               <li>name</li>
               <li>name</li>
               <li>name</li>
-              <li>name</li>
+              <li>about</li>
             </ui>
           </div>
         </div>
