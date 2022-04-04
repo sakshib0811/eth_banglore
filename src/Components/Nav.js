@@ -21,7 +21,7 @@ function Nav() {
 
     <nav className="nav">
       <a href="#" className="nav__brand">
-        <FaEthereum /> ETHbanglore
+        <FaEthereum /> ETHbangalore
       </a>
       <ul className={active}>
         <li className="nav__item">
